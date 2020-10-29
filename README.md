@@ -1,3 +1,3 @@
-## Simple-Todo-List
+## Simple Todo List
 
-A simple todo list app built in HTML, CSS and JavaScript.
+A simple todo list web app built in HTML, CSS and JavaScript.
