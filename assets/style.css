@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 580px;
+  margin: 40px auto;
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+.header {
+  height: 130px;
+  padding: 20px 20px;
+  background: url("../assets/image/bg-header.jpg");
+  border-radius: 30px 30px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-right {
+  text-align: right;
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+}
+
+.header-date {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.header-build {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+.input-list {
+  margin: 10px;
+  display: flex;
+}
+
+#input-todo.input {
+  font-size: 1rem;
+  text-indent: 10px;
+  flex: 1;
+  width: 300px;
+  height: 30px;
+}
+
+.button {
+  width: 50px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.content {
+  margin: 10px;
+  height: 30px;
+}
+
+.items {
+  max-height: 340px;
+  list-style: none;
+  overflow: auto;
+  overflow-x: unset;
+}
+
+.item-list {
+  margin: 10px auto;
+  height: 25px;
+  background-color: rgb(240, 239, 247);
+  border-radius: 20px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+}
+
+div.icon-check {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  background: url("../assets/image/checked-buttom.png") no-repeat;
+  background-size: cover;
+}
+
+div.icon-uncheck {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  background: url("../assets/image/uncheck.png") no-repeat;
+  background-size: cover;
+}
+
+.text-list {
+  font-style: oblique;
+  font-size: 1rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 1;
+}
+
+div.icon-trash {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  background: url("../assets/image/cancel-button.png") no-repeat;
+  background-size: cover;
+}
